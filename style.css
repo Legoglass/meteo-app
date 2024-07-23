@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: Koulen;
+    letter-spacing:  0.31875rem;
+    font-family: 'REM', sans-serif;
+}
+body {
+    background-image: linear-gradient(to left bottom, #052e37, #005d60, #008f6c, #1fc057, #a8eb12 )  ; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-title{
+    color: #FFF;
+    text-align: center;
+    text-shadow:  -17px 18px 7px rgba(0, 0, 0, 0.24);;
+    font-family: Koulen;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.765rem;
+    padding-top: 20px;
+}
+
+#icon{
+    max-width: 100px;
+}
+
+#glass{
+    margin: 50px auto;
+    padding: 0;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );   
+}
+
+#row-glass{
+    margin: 0;
+}
+
+
+.container-fluid{
+    padding: 0;
+}
+
+.forum{
+    border-radius: 1.3125rem;
+    border: none;
+    text-align: center;
+}
+
+#btn{
+    width: 7.0625rem;
+    border-radius: 0.75rem;
+    background: #009688;
+    border: none;
+    text-transform: uppercase;
+}
+
+h2{
+    color: white;
+}
+
+#contianer{
+    width: 100%;
+}
+
+p , h1 , h2 , h3 {
+    color: white;
+
+}
+
+
+
